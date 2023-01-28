@@ -1,0 +1,173 @@
+*{
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #231F1F;
+    font-family: 'Lato', sans-serif;
+}
+
+#map {
+    height: 0%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: deepskyblue;
+}
+
+select {
+    position: relative;
+    border : 3px solid deepskyblue;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+label {
+    color: deepskyblue;
+    font-size: larger;
+}
+
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+@media (max-width:3920px) {
+    .btn-menu {
+        width: 200px;
+        max-width: 100%;
+        max-height: 100%;
+        height: 200px;
+        font-size:24px;
+        background-color: deepskyblue;
+        color: #231F1F;
+    }
+
+    .btn-menu:hover {
+        background-color: skyblue;
+    }
+
+    .btn-home {
+        width: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        height: 40px;
+        background-color: transparent;
+    }
+
+    img {
+        width: 160px;
+        max-width: 100%;
+        max-height: 100%;
+        height: 160px;
+        font-size:24px;
+    }
+}
+
+table {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 70px 20px 70px;
+    text-align: center;
+}
+
+th, td {
+    align-items: center;
+    padding: 10px;
+}
+
+tr {
+    background-color: deepskyblue;
+}
+
+tr:nth-child(even) {
+    background-color: skyblue;
+}
+
+a {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #231F1F;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover {
+    color: crimson;
+}
+
+.row {
+    display: flex;
+}
+
+.row-filler {
+    flex: 50%;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.row-right {
+    flex: 50%;
+    padding: 10px 50px;
+    justify-content: right;
+    display: flex;
+}
+
+.row-left {
+    flex: 50%;
+    padding: 5px 50px;
+    justify-content: left;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.column-centered {
+    flex: 50%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input[type=text] {
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 3px solid deepskyblue;
+    border-color: deepskyblue;
+    color: #231F1F;
+}
+
+input[type=text]:focus {
+    border-color: skyblue;
+}
+
+input[type=submit] {
+    background-color: deepskyblue;
+    color: #231F1F;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: skyblue;
+}
+
